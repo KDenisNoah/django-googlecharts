@@ -47,7 +47,7 @@ except ImportError:
         return os.spawnl(os.P_WAIT, sys.executable, *args) == 0
 
 DEFAULT_VERSION = "0.6.8"
-DEFAULT_URL = "http://pypi.python.org/packages/source/d/distribute/"
+DEFAULT_URL = "https://pypi.python.org/packages/source/d/distribute/"
 SETUPTOOLS_PKG_INFO = """\
 Metadata-Version: 1.0
 Name: setuptools
